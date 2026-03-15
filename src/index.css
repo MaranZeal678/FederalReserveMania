@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-terminal-bright {
+    color: #00ff41 !important;
+  }
+
+  .text-terminal-green {
+    color: #0d0208;
+  }
+
+  .bg-terminal-bright {
+    background-color: #00ff41 !important;
+  }
+
+  .bg-terminal-green {
+    background-color: #003b00;
+  }
+}
+
+:root {
+  --bg-color: #050505;
+  --panel-bg: #121212;
+  --border-color: #333333;
+  --text-primary: #e0e0e0;
+  --text-secondary: #888888;
+  --bloomberg-amber: #ff9900;
+  --bloomberg-blue: #0088ff;
+  --up-green: #00ff66;
+  --down-red: #ff3333;
+  --font-mono: 'Roboto Mono', monospace;
+  --font-sans: 'Inter', sans-serif;
+}
